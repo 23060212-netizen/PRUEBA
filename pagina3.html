@@ -1,0 +1,30 @@
+<section class="contact">
+    <h2 class="section-title">Reserva tu sesión</h2>
+
+    <!-- FORMULARIO CONECTADO A FORMSUBMIT -->
+    <form action="https://formsubmit.co/23060212@cobachih.edu.mx" method="POST">
+        
+        <!-- Configuración FormSubmit -->
+        <input type="hidden" name="_subject" value="Nueva Reservación - Juan José Fotografía Deportiva">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_template" value="table">
+        <input type="hidden" name="_next" value="https://tusitio.com/gracias.html">
+
+        <!-- Campos del formulario -->
+        <input type="text" name="Nombre" placeholder="Nombre completo" required>
+        
+        <input type="email" name="email" placeholder="Correo electrónico" required>
+
+        <select name="Servicio" required>
+            <option value="">Tipo de servicio</option>
+            <option>Sesión individual</option>
+            <option>Cobertura de partido</option>
+            <option>Fotografía redes sociales</option>
+            <option>Pack premium</option>
+        </select>
+
+        <textarea name="Mensaje" rows="5" placeholder="Mensaje"></textarea>
+
+        <button type="submit">Reservar sesión</button>
+    </form>
+</section>
